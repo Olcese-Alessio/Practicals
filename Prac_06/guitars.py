@@ -1,7 +1,9 @@
+"""Guitar program to keep track of collection"""
 from Prac_06.guitar import Guitar
 
 
 def main():
+    """Guitar program using Guitar class"""
     guitars = []
 
     print("My guitars!")
@@ -24,7 +26,7 @@ def main():
             print("Guitar {}: {:>20} ({}), worth ${:10,.2f}"
                   " {}".format(i, guitar.name, guitar.year, guitar.cost, vintage_string))
     else:
-        print("No guitars :( Quick, go and buy one!")
+        print("No guitars in collection")
 
 
 main()

@@ -1,3 +1,6 @@
+"""Create programming language class(name, typing, reflection, year)"""
+
+
 class ProgrammingLanguage:
     def __init__(self, name, typing, reflection, year):
         self.name = name
@@ -6,7 +9,7 @@ class ProgrammingLanguage:
         self.year = year
 
     def __str__(self):
-        return "{}, {} Typing, Reflection={}, First appeared in {}".format(
+        return "{}, {} Typing, Reflection = {}, First appeared in {}".format(
             self.name, self.typing, self.reflection, self.year)
 
     def is_dynamic(self):
